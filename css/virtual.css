@@ -1429,4 +1429,53 @@ a:hover, a:active {
     display: none;
   }
 
+  .vg-footer {
+    width: 100%;
+    background-color: #343a40; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte */
+    padding: 20px 0; /* Padding en haut et en bas */
+    margin: 0; /* Supprime les marges */
+  }
+  
+  .vg-footer .container {
+    max-width: 100%; /* Assure que le conteneur prend toute la largeur */
+    padding: 0 15px; /* Padding latéral pour respirer */
+  }
+  
+  .vg-footer .row {
+    margin: 0; /* Supprime les marges */
+  }
+  
+  .vg-footer .col-lg-4, .vg-footer .col-md-6, .vg-footer .col-lg-3 {
+    padding: 15px; /* Padding pour espacer les colonnes */
+  }
+  
+  /* Optionnel: Ajuster les styles des éléments internes */
+  .vg-footer .footer-info,
+  .vg-footer .float-lg-right {
+    text-align: center; /* Centre le texte */
+  }
+  
+  .vg-footer .input-group {
+    max-width: 100%; /* Assure que le formulaire prend toute la largeur */
+  }
+  
+  .vg-footer .btn-theme {
+    background-color: #ff6f61; /* Couleur du bouton */
+    color: white;
+  }
+  
+  .vg-footer hr.divider {
+    border-top: 1px solid white;
+    width: 50px;
+    margin: 10px auto; /* Centre le hr */
+  }
+  
+  .vg-footer h3.fw-normal {
+    font-weight: normal;
+  }
+  
+  .vg-footer .ti-heart {
+    color: #ff6f61; /* Couleur du cœur */
+  }
   
